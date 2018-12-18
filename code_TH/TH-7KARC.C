@@ -1170,7 +1170,7 @@ double arrondi_nieme_decimale_voisine(double a_arrondir, short nbdec)
 
 long arrondi_euro_inf(double a_arrondir)
 {
-    return (long)floor(( 1 + 16*DBL_EPSILON ) * a_arrondir);
+    return (long)floor(a_arrondir);
 
 }
 /*-------------------- Fin de arrondi a l'euro inferieur  --------------------*/
