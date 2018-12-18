@@ -23,7 +23,7 @@
            s_liberreur; structure lib erreur calculette th
 ============================================================*/
 typedef struct {
-     char    libelle[68];        /*zone libelle erreur calculette th   */
+     char    libelle[69];        /*zone libelle erreur calculette th   */
                  }
            s_liberreur  ;
 /*- fin de liberreur    :structure lib erreur calculette th  --*/
